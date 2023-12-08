@@ -41,7 +41,7 @@ body {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: #a18006;
+  background: #ffd700;
   clip-path: polygon(
     50% 0%,
     61% 35%,
@@ -54,6 +54,7 @@ body {
     2% 35%,
     39% 35%
   );
+  border-radius: 15%;
   left: 95px;
   z-index: 4;
   filter: drop-shadow(0.75em 0.75em 0.5em);
@@ -170,7 +171,7 @@ body {
 .bell2 {
   width: 30px;
   height: 0;
-  border-bottom: 35px solid #d4a429;
+  border-bottom: 35px solid #ffcc4c;
   border-right: 6px solid transparent;
   border-left: 6px solid transparent;
   z-index: 11;
@@ -192,7 +193,7 @@ body {
 .bell-top {
   width: 30px;
   height: 15px;
-  background-color: #d4a429;
+  background-color: #e9b42d;
   position: relative;
   bottom: 13px;
   border-radius: 15px 15px 0 0;
@@ -200,7 +201,7 @@ body {
 .bell-bottom {
   width: 41px;
   height: 0;
-  border-bottom: 10px solid #d4a445;
+  border-bottom: 10px solid #e9b42d;
   border-right: 6px solid transparent;
   border-left: 6px solid transparent;
   position: relative;
@@ -377,10 +378,22 @@ body {
 h1 {
   font-family: "Berkshire Swash";
   font-weight: normal;
-  color: green;
-  padding-top: 5%;
+  color: rgb(0, 190, 0);
+  padding-top: 0%;
   text-align: center;
   text-shadow: 10px 10px 5px black;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+h2 {
+  font-family: "Berkshire Swash";
+  font-weight: normal;
+  color: rgb(255, 190, 10);
+  padding-top: 5%;
+  text-align: center;
+  text-shadow: 10px 10px 5px rgb(139, 95, 0);
   animation-name: move;
   animation-iteration-count: infinite;
   animation-duration: 4s;
